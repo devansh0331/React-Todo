@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp-area{
+    margin: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.todo-inp , .submitBtn{
+    height: 20px;
+    border: none;
+}
+
+.dropdown-area{
+    
+    margin: 10px 50px;
+}
+
+.submitBtn{
+    
+    border: none;
+    height: 15px;
+    
+}
+
+.form-btn:hover{
+    background-color: rgb(183, 183, 184);
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 30px;
+}
+
+.button img:hover{
+    filter: invert();
+}
+
+.dropdown-area select{
+    height: 25px;
+    width: 150px;
+    border-radius: 7px;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+}

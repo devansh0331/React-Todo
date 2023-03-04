@@ -1,0 +1,37 @@
+.todos-text{
+   
+    width: 20%;
+    margin: 10px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+    border-radius: 7px;
+    padding: 2px;
+    background-color: white;
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
+
+.todos-text li{
+    margin: auto;
+}
+
+.todo-btn button{
+    border-radius: 7px;
+    border: none;
+    margin: 1px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.todo-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(116, 116, 249);
+}
+
+.complete{
+    text-decoration: line-through;
+ color: rgb(18, 236, 102);
+    
+}
